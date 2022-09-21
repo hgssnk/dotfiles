@@ -11,3 +11,13 @@ if filereadable(expand('~/.config/nvim/init.vim'))
   source ~/.config/nvim/init.vim
 endif
 ```
+
+# Vim-Plug Install
+https://github.com/junegunn/vim-plug  
+`:PlugInstall`  
+  
+# coc.nvim lsp
+`CocInstall coc-jedi coc-tsserver`  
+
+# Python lsp
+`pip3 install jedi-language-server`

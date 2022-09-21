@@ -19,25 +19,31 @@ imap <C-l> <Right>
 imap <C-h> <BS>
 
 " Functions
-source ~/.config/nvim/functions/auto-close.vim
+" source ~/.config/nvim/functions/auto-close.vim
+
+" Vim-Plug
+call plug#begin()
+  Plug 'preservim/nerdtree'
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
+call plug#end()
 
 " Dein
-if &compatible
-  set nocompatible
-endif
-
-set runtimepath+=~/.cache/dein/repos/github.com/Shougo/dein.vim
-if dein#load_state('~/.cache/dein')
-  call dein#begin('~/.cache/dein')
-  call dein#load_toml('~/.config/nvim/dein.toml', {'lazy': 0})
-  call dein#load_toml('~/.config/nvim/lazy.toml', {'lazy': 1})
-  call dein#end()
-  call dein#save_state()
-endif
-
-if dein#check_install()
- call dein#install()
-endif
-
-filetype plugin indent on
-syntax enable
+" if &compatible
+"   set nocompatible
+" endif
+" 
+" set runtimepath+=~/.cache/dein/repos/github.com/Shougo/dein.vim
+" if dein#load_state('~/.cache/dein')
+"   call dein#begin('~/.cache/dein')
+"   call dein#load_toml('~/.config/nvim/dein.toml', {'lazy': 0})
+"   call dein#load_toml('~/.config/nvim/lazy.toml', {'lazy': 1})
+"   call dein#end()
+"   call dein#save_state()
+" endif
+" 
+" if dein#check_install()
+"  call dein#install()
+" endif
+" 
+" filetype plugin indent on
+" syntax enable

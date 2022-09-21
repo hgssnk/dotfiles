@@ -2,9 +2,13 @@
 Import-Module posh-git
 Import-Module oh-my-posh
 Import-Module -Name Terminal-Icons
-Set-PoshPrompt patriksvensson
+Import-Module PSReadLine
+Set-PSReadlineOption -EditMode Emacs
+Set-PSReadlineKeyHandler -Key Ctrl+d -Function DeleteChar
 Set-PSReadLineOption -PredictionSource History
 Set-PSReadLineOption -PredictionViewStyle ListView
+Set-PoshPrompt -Theme night-owl
+Set-PoshPrompt patriksvensson
 
 # Alias
 Set-Alias ll ls
