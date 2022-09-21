@@ -1,8 +1,8 @@
 # Homebrew Install
-https://brew.sh/
-
+https://brew.sh/  
+  
 # Fish Install
-brew install fish
-
+`brew install fish`  
+  
 # Chenge Shell
-chsh -s /usr/local/bin/fish
+`chsh -s /usr/local/bin/fish`
