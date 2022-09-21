@@ -1,0 +1,22 @@
+# プラグイン管理
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+# コード補完
+[[plugins]]
+repo = 'Shougo/ddc.vim'
+
+# ディレクトリツリー表示
+[[plugins]]
+repo = 'preservim/nerdtree'
+
+# コメントアウト
+[[plugins]]
+repo = 'tomtom/tcomment_vim'
+
+[[plugins]]
+repo = 'mattn/vim-lsp-settings'
+
+[[plugins]]
+repo = 'prabirshrestha/vim-lsp'
+
