@@ -24,10 +24,10 @@ IMEGetstate:
 ; Mac Like Keybinds
 LCtrl & f::Right     ; forward char
 LCtrl & p::Up        ; previous line
-LCtrl & n::Down      ; next line
+; LCtrl & n::Down      ; next line
 LCtrl & b::Left      ; backward char
 LCtrl & a::HOME      ; move beginning of line
 LCtrl & e::END       ; move end of line
-LCtrl & d::Del       ; delete char
+; LCtrl & d::Del       ; delete char
 LCtrl & h::BS        ; delete backward char
 LCtrl & m::Enter     ; newline
